@@ -1,6 +1,7 @@
-import React from "react";
-import { Style } from "./types/Style";
-import "./config/styleReset.css";
+import React from 'react'
+import { Style } from './types/Style'
+import './config/styleReset.css'
+import { GameScreen } from './Screens/GameScreen/GameScreen'
 
 // TODO
 // router
@@ -9,14 +10,18 @@ import "./config/styleReset.css";
 
 export class App extends React.Component {
   public render(): JSX.Element {
-    return <div style={styles.container} />;
+    return (
+      <div style={styles.container}>
+        <GameScreen />
+      </div>
+    )
   }
 }
 
 const styles: Style = {
   container: {
-    backgroundColor: "green",
+    backgroundColor: 'white',
     height: `100vh`,
     width: `100vw`
   }
-};
+}
