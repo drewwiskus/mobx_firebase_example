@@ -1,5 +1,5 @@
 import React from 'react'
-import { CssStyle } from './config/types/Style'
+import { CssStyleSheet } from './config/types/Style'
 import './config/styleReset.css'
 
 export class App extends React.Component {
@@ -12,7 +12,7 @@ export class App extends React.Component {
     }
 }
 
-const styles: CssStyle = {
+const styles: CssStyleSheet = {
     container: {
         backgroundColor: 'white',
         height: `100vh`,

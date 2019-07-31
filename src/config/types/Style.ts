@@ -1,3 +1,5 @@
 import { CSSProperties } from 'react'
 
-export type CssStyle = { [key: string]: CSSProperties }
+export interface CssStyleSheet {
+    [key: string]: CSSProperties
+}
