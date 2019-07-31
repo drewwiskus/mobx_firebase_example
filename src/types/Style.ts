@@ -1,3 +1,3 @@
-import { CSSProperties } from "react";
+import { CSSProperties } from 'react'
 
-export type Style = { [key: string]: CSSProperties };
+export type CssStyle = { [key: string]: CSSProperties }
