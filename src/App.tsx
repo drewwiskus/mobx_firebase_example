@@ -1,5 +1,5 @@
 import React from 'react'
-import { CssStyle } from './types/Style'
+import { CssStyle } from './config/types/Style'
 import './config/styleReset.css'
 
 export class App extends React.Component {
